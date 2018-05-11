@@ -8,5 +8,6 @@ namespace BibliotecaApollo.Basicas
 {
     class SalaBasica
     {
+        
     }
 }

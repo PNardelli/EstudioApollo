@@ -9,18 +9,19 @@ namespace BibliotecaApollo.Basicas
     class HorarioBase
     {
         private string descricao;
-        private string valor;
+        private double valor;
+        private string nome;
 
-        public int CodTipo
+        public string Descricao
         {
             get
             {
-                return codTipo;
+                return descricao;
             }
 
             set
             {
-                codTipo = value;
+                descricao = value;
             }
         }
 
@@ -28,12 +29,25 @@ namespace BibliotecaApollo.Basicas
         {
             get
             {
-                return Nome;
+                return nome;
             }
 
             set
             {
-                Nome = value;
+                nome = value;
+            }
+        }
+
+        public double Valor
+        {
+            get
+            {
+                return valor;
+            }
+
+            set
+            {
+                valor = value;
             }
         }
     }
