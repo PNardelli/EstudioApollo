@@ -16,12 +16,12 @@ namespace BibliotecaApollo.Basicas
         {
             get
             {
-                return codinstrumento;
+                return codInstrumento;
             }
 
             set
             {
-                codinstrumento = value;
+                codInstrumento = value;
             }
         }
 
