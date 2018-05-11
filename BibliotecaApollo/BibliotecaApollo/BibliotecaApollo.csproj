@@ -47,12 +47,16 @@
     <Compile Include="Basicas\SalaBasica.cs" />
     <Compile Include="Basicas\TipoBasica.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Regra\ArtistaNegocio.cs" />
+    <Compile Include="Regra\ClienteRegra.cs" />
+    <Compile Include="Regra\InstrumentoNegocio.cs" />
+    <Compile Include="Regra\LocacaoNegocio.cs" />
+    <Compile Include="Regra\TipoNegocio.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Banco\" />
     <Folder Include="Conect\" />
     <Folder Include="Interface\" />
-    <Folder Include="Regra\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
