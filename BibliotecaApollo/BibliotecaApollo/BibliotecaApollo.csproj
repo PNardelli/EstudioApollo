@@ -40,11 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Basicas\ArtistaBasica.cs" />
+    <Compile Include="Basicas\ClienteBasica.cs" />
+    <Compile Include="Basicas\InstrumentoBasica.cs" />
+    <Compile Include="Basicas\TipoBasica.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Banco\" />
-    <Folder Include="Basicas\" />
     <Folder Include="Conect\" />
     <Folder Include="Interface\" />
     <Folder Include="Regra\" />
