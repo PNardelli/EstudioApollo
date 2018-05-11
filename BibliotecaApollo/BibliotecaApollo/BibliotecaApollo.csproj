@@ -42,7 +42,9 @@
   <ItemGroup>
     <Compile Include="Basicas\ArtistaBasica.cs" />
     <Compile Include="Basicas\ClienteBasica.cs" />
+    <Compile Include="Basicas\HorarioBase.cs" />
     <Compile Include="Basicas\InstrumentoBasica.cs" />
+    <Compile Include="Basicas\SalaBasica.cs" />
     <Compile Include="Basicas\TipoBasica.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

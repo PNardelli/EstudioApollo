@@ -1,4 +1,4 @@
-﻿using System;
+﻿-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +8,48 @@ namespace BibliotecaApollo.Basicas
 {
     class InstrumentoBasica
     {
+        private int codInstrumento;
+        private int valor;
+        private string nome;
+
+        public int CodInstrumento
+        {
+            get
+            {
+                return codinstrumento;
+            }
+
+            set
+            {
+                codinstrumento = value;
+            }
+        }
+
+        public int Valor
+        {
+            get
+            {
+                return Valor;
+            }
+
+            set
+            {
+                Valor = value;
+            }
+        }
+
+        public string Nome
+        {
+            get
+            {
+                return nome;
+            }
+
+            set
+            {
+                nome = value;
+            }
+        }
+
     }
 }
