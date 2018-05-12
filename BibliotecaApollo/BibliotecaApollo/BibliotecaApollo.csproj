@@ -47,7 +47,10 @@
     <Compile Include="Basicas\SalaBasica.cs" />
     <Compile Include="Basicas\TipoBasica.cs" />
     <Compile Include="Conexao\ConexaoSqlServer.cs" />
+    <Compile Include="Interface\ClienteInterface.cs" />
     <Compile Include="Interface\HorarioInterface.cs" />
+    <Compile Include="Interface\ArtistaInterface.cs" />
+    <Compile Include="Interface\InstrumentoInterface.cs" />
     <Compile Include="Interface\SalaInterface.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Regra\ArtistaNegocio.cs" />
