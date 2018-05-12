@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Banco\SalaBD.cs" />
     <Compile Include="Basicas\ArtistaBasica.cs" />
     <Compile Include="Basicas\ClienteBasica.cs" />
     <Compile Include="Basicas\HorarioBase.cs" />
@@ -47,6 +48,7 @@
     <Compile Include="Basicas\SalaBasica.cs" />
     <Compile Include="Basicas\TipoBasica.cs" />
     <Compile Include="Conexao\ConexaoSqlServer.cs" />
+    <Compile Include="DAO\SalaDAO.cs" />
     <Compile Include="Interface\ClienteInterface.cs" />
     <Compile Include="Interface\HorarioInterface.cs" />
     <Compile Include="Interface\ArtistaInterface.cs" />
@@ -59,9 +61,7 @@
     <Compile Include="Regra\LocacaoNegocio.cs" />
     <Compile Include="Regra\TipoNegocio.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Banco\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
