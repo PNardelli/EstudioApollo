@@ -8,5 +8,48 @@ namespace BibliotecaApollo.Regra
 {
     class InstrumentoNegocio
     {
+        private int codInstrumento;
+        private int valor;
+        private string nome;
+
+        public int CodInstrumento
+        {
+            get
+            {
+                return codInstrumento;
+            }
+
+            set
+            {
+                codInstrumento = value;
+            }
+        }
+
+        public int Valor
+        {
+            get
+            {
+                return Valor;
+            }
+
+            set
+            {
+                Valor = value;
+            }
+        }
+
+        public string Nome
+        {
+            get
+            {
+                return nome;
+            }
+
+            set
+            {
+                nome = value;
+            }
+        }
+
     }
 }
