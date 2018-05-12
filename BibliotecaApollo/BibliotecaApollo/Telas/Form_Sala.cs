@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BibliotecaApollo.Basicas;
+using BibliotecaApollo.Fachada;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -23,6 +25,24 @@ namespace BibliotecaApollo.Telas
             textBoxValor.Clear();
             richTextBoxDescricao.Clear();
             textBoxNome.Focus();
+        }
+
+        private void btnCadastrar_Click(object sender, EventArgs e)
+        {
+            //Chamando nova fachada da Sala.
+            SalaFachada fachada = new SalaFachada();
+            
+            //Criando nova sala.
+            SalaBasica sala = new SalaBasica();
+            //Passando atributos recebidos do usuario.
+            sala.Sal_nome = textBoxNome.Text;
+            sala.Sal_valor = Convert.ToDouble(textBoxValor.Text);
+            sala.Sal_descricao = richTextBoxDescricao.Text;
+
+            //Validando a Sala.
+            fachada.validarSala(sala);
+
+
         }
     }
 }

@@ -15,13 +15,13 @@ namespace BibliotecaApollo.Conexao
         //tipo responsável para se trabalhar com o sqlserver
         public SqlConnection sqlConn;
         //máquina no qual estará o banco de dados
-        private const string local = @"OLIVEIRAULTRA\SQLEXPRESS"; //tem que ver qual vai ser o padrão
+        private const string local = @"PEDRONARDELCFDC\SQLEXPRESS"; //tem que ver qual vai ser o padrão
         //nome do banco de dados no qual desejamos nos comunicar
         private const string banco_de_dados = "apollo_db";
         //usuário que tenha os privilégios para utilizar o banco de dados
-        private const string usuario = "root";
+        private const string usuario = "pedro";
         //senha do usuario
-        private const string senha = "root";
+        private const string senha = "nardelli";
         #endregion
 
         //string de conexão obtida para o sql sever

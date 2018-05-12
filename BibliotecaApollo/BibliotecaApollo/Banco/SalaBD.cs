@@ -40,7 +40,7 @@ namespace BibliotecaApollo.Banco
                 //Liberando memoria.
                 cmd.Dispose();
                 //Fechando conexao com o banco.
-                this.fecharConexao();.
+                this.fecharConexao();
 
             }
             catch (Exception ex)

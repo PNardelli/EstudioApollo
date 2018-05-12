@@ -51,6 +51,7 @@
     <Compile Include="Basicas\TipoBasica.cs" />
     <Compile Include="Conexao\ConexaoSqlServer.cs" />
     <Compile Include="DAO\SalaDAO.cs" />
+    <Compile Include="Fachada\SalaFachada.cs" />
     <Compile Include="Interface\ClienteInterface.cs" />
     <Compile Include="Interface\HorarioInterface.cs" />
     <Compile Include="Interface\ArtistaInterface.cs" />
