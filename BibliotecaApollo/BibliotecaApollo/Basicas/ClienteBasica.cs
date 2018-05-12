@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BibliotecaApollo.Basicas
 {
-    class ClienteBasica
+    public class ClienteBasica
     {
         private string texto;
         private int telefone;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BibliotecaApollo.Basicas
 {
-    class HorarioBase
+    public class HorarioBase
     {
         private string descricao;
         private double valor;

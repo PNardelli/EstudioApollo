@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BibliotecaApollo.Basicas
 {
-    class SalaBasica
+    public class SalaBasica
     {
         private double sal_valor;
         private String sal_nome;

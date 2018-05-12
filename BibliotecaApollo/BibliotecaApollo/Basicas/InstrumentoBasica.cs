@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BibliotecaApollo.Basicas
 {
-    class InstrumentoBasica
+    public class InstrumentoBasica
     {
         private int codInstrumento;
         private int valor;

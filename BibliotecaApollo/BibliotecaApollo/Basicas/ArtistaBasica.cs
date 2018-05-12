@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BibliotecaApollo.Basicas
 {
-    class ArtistaBasica
+    public class ArtistaBasica
     {
         private int codArtista;
         private string nome;
