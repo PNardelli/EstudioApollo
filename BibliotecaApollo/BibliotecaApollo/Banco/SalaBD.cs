@@ -35,6 +35,13 @@ namespace BibliotecaApollo.Banco
                 cmd.Parameters.Add("@sal_descricao", SqlDbType.Text);
                 cmd.Parameters["@sal_descricao"].Value = sala.Sal_descricao;
 
+                //Executando instruçoes ao Banco.
+                cmd.ExecuteNonQuery();
+                //Liberando memoria.
+                cmd.Dispose();
+                //Fechando conexao com o banco.
+                this.fecharConexao();.
+
             }
             catch (Exception ex)
             {
