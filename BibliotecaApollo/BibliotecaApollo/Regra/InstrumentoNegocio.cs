@@ -11,6 +11,7 @@ namespace BibliotecaApollo.Regra
         private int codInstrumento;
         private int valor;
         private string nome;
+        private string tirardepois;
 
         public int CodInstrumento
         {
